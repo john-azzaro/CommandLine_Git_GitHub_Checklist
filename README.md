@@ -5,9 +5,9 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
 
 
 
-## Command Line Checklist
+# Command Line Checklist
 
-#### Basic Commands
+## Basic Commands
 * ```   cd     ``` **Change directory** *(used to move from one directory to another).*
 
 * ```   pwd    ``` **Print working directory** *(used to find your current location).*
@@ -28,7 +28,7 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
 
 
 
-#### Basic Navigation Using Command Line
+## Basic Navigation Using Command Line
 
 1. First, make sure you are in the right directory with "pwd" (i.e. print working directory).
    > ```    pwd   ```
