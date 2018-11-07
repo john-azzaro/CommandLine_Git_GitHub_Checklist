@@ -29,4 +29,4 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
 #### Basic Navigation Using Command Line
 
 1. First, make sure you are in the right directory with "pwd" (i.e. print working directory).
-> ```    pwd   ```
+   > ```    pwd   ```
