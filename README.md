@@ -27,7 +27,7 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
 * ```   cp     ``` **Copy a file** *(used to copy a file or directory).*
 
 
-
+<br>
 ## Basic Navigation Using Command Line
 
 1. First, make sure you are in the right directory with "pwd" (i.e. print working directory).
