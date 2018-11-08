@@ -1,10 +1,23 @@
 # Command Line, Git, and GitHub Checklist
 
+**Table of Contents**
+
+* [Command Line Checklist](#Command-Line-Checklist)
+   * [Basic C.L. Commands](#Basic-C.L.-Commands)
+   * [Display Git Help](#Moving-Files-and-Folders)
+   * [Basic C.L. Navigation](#Basic-C.L.-Navigation)
+      *
+   
+   
+   
 [Moving Files and Folders](#Moving-Files-and-Folders)
+[Moving Files and Folders](#Moving-Files-and-Folders)
+
+
 
 # Command Line Checklist
 
-## Basic Commands
+## Basic C.L. Commands
 * ```   cd       ``` **Change directory** *(used to move from one directory to another).*
 
 * ```   pwd      ``` **Print working directory** *(used to find your current location).*
@@ -25,16 +38,15 @@
 
 <br>
 
-## Basic Navigation Using Command Line
-
-### Print out Git Help
+### Display Git Help
 * **To display help information about Git**
    ``` 
    git --help
    ```
+   
+# Basic C.L. Navigation
 
-
-### Finding your current location
+## Finding Current Location
 
 * **To show your current location:** 
    ```   
@@ -46,7 +58,7 @@
    cd ~ 
    ```
    
-### Creating new directories and files
+## Creating New Directories and Files
 
 * **To create a new directory:**
     *note: this will make a new directory (i.e. folder) named TestCL*
