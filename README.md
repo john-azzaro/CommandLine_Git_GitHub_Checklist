@@ -38,11 +38,11 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
 
 ### Finding your current location
 
-**To show your current location:** 
+* **To show your current location:** 
    ```   
    pwd  
    ```
-**To return to your user account home foldder**
+* **To return to your user account home foldder**
    ``` 
    cd ~ 
    ```
