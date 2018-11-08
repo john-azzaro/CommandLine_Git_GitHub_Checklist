@@ -43,7 +43,8 @@
    ``` 
    git --help
    ```
-   
+ <br> 
+ 
 ## Finding Current Location
 
 * **To show your current location:** 
@@ -55,7 +56,8 @@
    ``` 
    cd ~ 
    ```
-   
+ <br>
+ 
 ## Creating New Directories and Files
 
 * **To create a new directory:**
@@ -74,6 +76,7 @@
     ```
     touch text/hello.txt
     ``` 
+<br>
 
 ## Navigating directories 
 
@@ -87,7 +90,9 @@
      ``` 
      cd 'test folder' 
      ```
-   
+
+<br>
+
 * **To navigate FORWARD to a subfolder:** 
      ``` 
      cd test/cats/dogs
@@ -103,12 +108,16 @@
      cd ../.. 
      ```
 
+<br>
+
 ## Finding out whats in a directory
 
 * **To list contents of a directory:**
      ``` 
      ls 
      ```
+
+<br>
 
 ## Moving Files and Folders
 
@@ -117,7 +126,9 @@
      ``` 
      mv first.txt second.txt 
      ``` 
-    
+
+<br>
+
 ## Deleting Folders and Directories
    > *note: "rm" stands for remove, "-i" gives you a warning prompt before you delete.*
 * **To remove a file**
