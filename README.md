@@ -31,7 +31,7 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
 ## Basic Navigation Using Command Line
 
 ### Print out Git Help
-   > ``` git --help ```
+   ``` git --help ```
 
 
 ### Finding your current location
