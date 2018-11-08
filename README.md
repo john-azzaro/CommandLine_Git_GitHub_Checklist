@@ -42,6 +42,7 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
    ```   
    pwd  
    ```
+   
 * **To return to your user account home foldder**
    ``` 
    cd ~ 
@@ -74,6 +75,7 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
      ``` 
      cd test 
      ``` 
+     
    **If the folder contains any spaces, use quotations.**
      ``` 
      cd 'test folder' 
