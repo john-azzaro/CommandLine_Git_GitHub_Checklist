@@ -4,15 +4,16 @@
 
 * [Command Line Checklist](#Command-Line-Checklist)
    * [Basic Commands](#Basic-Commands)
-   * [Display Git Help](#MDisplay-Git-Help)
-   * [Basic Navigation](#Basic-Navigation)
-      *
+   * [Display Git Help](#Display-Git-Help)
+   * [Establishing Location](#Establishing-Location)
+   * [Creating New Directories and Files](#Creating-New-Directories-and-Files)
+   * [Navigating Directories](#Navigating-Directories)
+   * [Listing Directory Contents](#Listing-Directory-Contents)
+   * [Moving Files and Folders](#Moving-Files-and-Folders)
+   * [Copying Files and Folders](#Copying-Files-and-Folders)
+   * [Deleting Files and Directories](#Deleting-Files-and-Directories)
    
    
-   
-[Moving Files and Folders](#Moving-Files-and-Folders)
-[Moving Files and Folders](#Moving-Files-and-Folders)
-
 
 
 # Command Line Checklist
@@ -45,7 +46,7 @@
    ```
  <br> 
  
-## Finding Current Location
+## Establishing Location
 
 * **To show your current location:** 
    ```   
@@ -78,7 +79,7 @@
     ``` 
 <br>
 
-## Navigating directories 
+## Navigating Directories 
 
 * **To navigate FORWARD to a directory:**
     > *note: typing "cd" will "change directory" to the folder "test".*
@@ -110,7 +111,7 @@
 
 <br>
 
-## Finding out whats in a directory
+## Listing Directory Contents
 
 * **To list contents of a directory:**
      ``` 
@@ -126,10 +127,20 @@
      ``` 
      mv first.txt second.txt 
      ``` 
+<br>
+
+## Copying Files and Folders
+
+* **To copy files and folders**
+    > *note: follwing cp (copy), the first folder is what is copied, the second folder is where the first folder is copied to.*
+    ```
+    cp folderToCopy folderToCopyFirstFolderTo
+    ```
+
 
 <br>
 
-## Deleting Folders and Directories
+## Deleting Files and Directories 
    > *note: "rm" stands for remove, "-i" gives you a warning prompt before you delete.*
 * **To remove a file**
     ```
