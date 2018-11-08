@@ -1,6 +1,6 @@
 # Command Line, Git, and GitHub Checklist
 
-[Moving Files and Folders](###Moving-Files-and-Folders)
+[Moving Files and Folders](#Moving-Files-and-Folders)
 
 # Command Line Checklist
 
