@@ -1,9 +1,6 @@
 # Command Line, Git, and GitHub Checklist
 
-##### What is Command Line, Git, and GitHub Checklist?
-The Command Line, Git, and GitHub Checklist is a handy collection of step-by-step instructions for Command Line, Git, and GitHub.
-
-
+[Moving Files and Folders] (### Moving Files and Folders)
 
 # Command Line Checklist
 
@@ -31,6 +28,7 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
 ## Basic Navigation Using Command Line
 
 ### Print out Git Help
+* **To display help information about Git**
    ``` 
    git --help
    ```
@@ -43,7 +41,7 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
    pwd  
    ```
    
-* **To return to your user account home foldder**
+* **To return to your user account home folder**
    ``` 
    cd ~ 
    ```
@@ -103,7 +101,7 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
      ls 
      ```
 
-### To move files and folders
+### Moving Files and Folders
 
 * **To move a file to another name (i.e. rename a file)**
     *note: this renames first.txt to second.txt*
