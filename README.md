@@ -3,9 +3,9 @@
 **Table of Contents**
 
 * [Command Line Checklist](#Command-Line-Checklist)
-   * [Basic C.L. Commands](#Basic-C.L.-Commands)
-   * [Display Git Help](#Moving-Files-and-Folders)
-   * [Basic C.L. Navigation](#Basic-C.L.-Navigation)
+   * [Basic Commands](#Basic-Commands)
+   * [Display Git Help](#MDisplay-Git-Help)
+   * [Basic Navigation](#Basic-Navigation)
       *
    
    
@@ -17,7 +17,7 @@
 
 # Command Line Checklist
 
-## Basic C.L. Commands
+## Basic Commands
 * ```   cd       ``` **Change directory** *(used to move from one directory to another).*
 
 * ```   pwd      ``` **Print working directory** *(used to find your current location).*
@@ -38,14 +38,12 @@
 
 <br>
 
-### Display Git Help
+## Display Git Help
 * **To display help information about Git**
    ``` 
    git --help
    ```
    
-# Basic C.L. Navigation
-
 ## Finding Current Location
 
 * **To show your current location:** 
@@ -61,11 +59,10 @@
 ## Creating New Directories and Files
 
 * **To create a new directory:**
-    *note: this will make a new directory (i.e. folder) named TestCL*
+    > *note: this will make a new directory (i.e. folder) named TestCL.*
    ```
    mkdir TestCL
    ``` 
-   
 
 * **To create a series of nested folders:**
      ``` 
@@ -73,15 +70,15 @@
      ```
 
 * **To create a new file:**
-    *note: this will create a file called "hello.txt" in the folder "text"*
+    > *note: this will create a file called "hello.txt" in the folder "text".*
     ```
     touch text/hello.txt
     ``` 
 
-### Navigating directories 
+## Navigating directories 
 
 * **To navigate FORWARD to a directory:**
-    *note: typing "cd" will "change directory" to the folder "test"*
+    > *note: typing "cd" will "change directory" to the folder "test".*
      ``` 
      cd test 
      ``` 
@@ -106,30 +103,30 @@
      cd ../.. 
      ```
 
-### Finding out whats in a directory
+## Finding out whats in a directory
 
 * **To list contents of a directory:**
      ``` 
      ls 
      ```
 
-### Moving Files and Folders
+## Moving Files and Folders
 
 * **To move a file to another name (i.e. rename a file)**
-    *note: this renames first.txt to second.txt*
+    > *note: this renames first.txt to second.txt*
      ``` 
      mv first.txt second.txt 
      ``` 
     
-### Deleting Folders and Directories
-   *note: "rm" stands for remove, "-i" gives you a warning prompt before you delete*
+## Deleting Folders and Directories
+   > *note: "rm" stands for remove, "-i" gives you a warning prompt before you delete.*
 * **To remove a file**
     ```
     rm -i docToDelete.txt 
     ``` 
     
 * **To remove a directory**
-    *note: "-r" stands for recursive and will remove sub folders)*
+    > *note: "-r" stands for recursive and will remove sub folders.*
     ``` 
     rmdir -r folderToDelete 
     ``` 
