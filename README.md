@@ -30,62 +30,62 @@ The Command Line, Git, and GitHub Checklist is a handy collection of step-by-ste
 
 ## Basic Navigation Using Command Line
 
-#### Print out Git Help
+### Print out Git Help
    > ``` git --help ```
 
 
-#### Finding your current location
+### Finding your current location
 
 **To show your current location:** 
-     > ```    pwd   ```
+   > ```    pwd   ```
 
 **To return to your user account home foldder**
-     >``` cd ~ ```
+   >``` cd ~ ```
    
-#### Creating new directories and files
+### Creating new directories and files
 
 * **To create a new directory:**
-       > ```mkdir TestCL``` *(this will make a new directory(i.e. folder) named TestCL*
+   > ```mkdir TestCL``` *(this will make a new directory(i.e. folder) named TestCL*
 
 * **To create a series of nested folders:**
-       > ``` mkdir -p test/cats/dogs/bears ```
+     > ``` mkdir -p test/cats/dogs/bears ```
 
 * **To create a new file:**
-       > ```touch text/hello.txt``` *(this will create a file called "hello.txt" in the folder "text")*
+    > ```touch text/hello.txt``` *(this will create a file called "hello.txt" in the folder "text")*
 
-#### Navigating directories 
+### Navigating directories 
 
 * **To navigate FORWARD to a directory:**  
-      > ``` cd test ``` *(typing "cd" will "change directory" to the folder "test")*
+     > ``` cd test ``` *(typing "cd" will "change directory" to the folder "test")*
    **If the folder contains any spaces, use quotations.**
-      > ``` cd 'test folder' ```
+     > ``` cd 'test folder' ```
    
 * **To navigate FORWARD to a subfolder:** 
-      > ``` cd test/cats/dogs ```
+     > ``` cd test/cats/dogs ```
 
 * **To go navigate BACK to the parent (previous) directory (i.e. go back one folder):** 
-       > ``` cd .. ```
+     > ``` cd .. ```
     
 * **To navigate BACK to the grandparent directory (i.e. go back two folders):**
-       > ``` cd ../.. ```
+     > ``` cd ../.. ```
 
-#### Finding out whats in a directory
+### Finding out whats in a directory
 
 * **To list contents of a directory:**
-       > ``` ls ```
+     > ``` ls ```
 
-#### To move files and folders
+### To move files and folders
 
 * **To move a file to another name (i.e. rename a file)**
-       > ``` mv first.txt second.txt ``` *(renames first.txt to second.txt)*
+     > ``` mv first.txt second.txt ``` *(renames first.txt to second.txt)*
     
-#### Deleting Folders and Directories
+### Deleting Folders and Directories
 
 * **To remove a file**
-      > ```rm -i doctodelete.txt ``` *("rm" stands for remove, "-i" gives you a warning prompt before you delete)*
+    > ```rm -i doctodelete.txt ``` *("rm" stands for remove, "-i" gives you a warning prompt before you delete)*
 
 * **To remove a directory**
-      > ``` rmdir -r foldertodelete ``` *("-r" stands for recursive and will remove sub folders)*
+    > ``` rmdir -r foldertodelete ``` *("-r" stands for recursive and will remove sub folders)*
 
 
 
