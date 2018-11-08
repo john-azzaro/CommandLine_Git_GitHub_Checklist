@@ -141,8 +141,9 @@
 <br>
 
 ## Deleting Files and Directories 
-   > *note: "rm" stands for remove, "-i" gives you a warning prompt before you delete.*
+  
 * **To remove a file**
+    > *note: "rm" stands for remove, "-i" gives you a warning prompt before you delete.*
     ```
     rm -i docToDelete.txt 
     ``` 
