@@ -169,7 +169,8 @@
     pwd
     ```
 2. **Create a new directory**
-    `mkdir project``
+    ```
+    mkdir project
     ```
 3. **Move into the new directory**
     ```
@@ -202,7 +203,9 @@
     git add index.html index.css index.js
     ```
 
-### Committing Staged Changes
+<br>
+
+### Committing Staged Changes:
 
 9. **Commit your staged changes**
     ```
@@ -222,7 +225,20 @@
     git status
     ```
    
+<br>
 
+### Uploading to GitHub:
+  > Assuming you have an account with GitHub already, you need to first create a new repository.  Once you have created the new repository, you copy the provided link to that repository to use in the next step.
+  
+12. **Add a new remote repository (named origin) that lives at the provided address**
+    ```
+    git remote add origin https://github.io/<name>/<foldername>.git
+    ```
+13. **Push the local commit history to the remote repo (origin) to a local branch called "master"**
+      > note: the -u flag setps things up so that in future you only need to use ```git push``` instead of the full ```git push origin master```
+    ```
+    git push -u origin master
+    ```
     
 
 
