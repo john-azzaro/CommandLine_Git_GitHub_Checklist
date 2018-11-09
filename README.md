@@ -235,7 +235,7 @@
     git remote add origin https://github.io/<name>/<foldername>.git
     ```
 13. **Push the local commit history to the remote repo (origin) to a local branch called "master"**
-      > note: the -u flag setps things up so that in future you only need to use ```git push``` instead of the full ```git push origin master```
+      > *note: the -u flag setps things up so that you only need to use ```git push``` instead of the full ```git push origin master```*
     ```
     git push -u origin master
     ```
