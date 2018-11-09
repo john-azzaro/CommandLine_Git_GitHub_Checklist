@@ -14,7 +14,7 @@
    * [Deleting Files and Directories](#Deleting-Files-and-Directories)
 
 * [Version Control Step-by-Step](#Version-Control-Step-by-Step)
-   * [Setting Up Your Project](#BSetting-Up-Your-Project)
+   * [Setting Up Your Project](#Setting-Up-Your-Project)
    * [Initializing Your Project as a Git Repository](#Initializing-Your-Project-as-a-Git-Repository)
    * [Committing Staged Changes](#Committing-Staged-Changes)
    * [Uploading Local Repository to GitHub](#Uploading-Local-Repository-to-GitHub)
