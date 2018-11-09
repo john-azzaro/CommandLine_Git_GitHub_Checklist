@@ -176,11 +176,21 @@
 <br>
 
 ### Initializing Your Project as a Git Repository:
-   > In this phase you are "initializing" your project.  This means that you are telling Git that you want to use version control for this folder and track the files that you add.       
+   > In this phase you are "initializing" your project.  This means that you are telling Git that you want to use version control for this folder and TRACK the files that you add.  Once you add the file, you have changes that are STAGED to be committed.    
 
 6. **Initialize the project folder as a Git repository**
 7. **Check the status of your repository**
-8. ****
+8. **TRACK your files by adding them**
+
+### Committing Staged Changes
+
+9. **Commit your staged changes**
+10. **make an initial commit message**
+    ``` :i```
+    ``` initial commit```
+    ``` (hit escape key)```
+    ``` git status```
+   
 
     
 
