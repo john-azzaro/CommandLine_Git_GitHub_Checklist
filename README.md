@@ -169,9 +169,20 @@
     pwd
     ```
 2. **Create a new directory**
+    `mkdir project``
+    ```
 3. **Move into the new directory**
+    ```
+    cd project
+    ```
 4. **Create files for your project**
+    ```
+    touch index.html index.css index.js
+    ```
 5. **Check to make sure the files are there**
+    ```
+    ls
+    ```
 
 <br>
 
@@ -179,13 +190,25 @@
    > In this phase you are "initializing" your project.  This means that you are telling Git that you want to use version control for this folder and TRACK the files that you add.  Once you add the file, you have changes that are STAGED to be committed.    
 
 6. **Initialize the project folder as a Git repository**
+    ```
+    git init
+    ```
 7. **Check the status of your repository**
+    ```
+    git status
+    ```
 8. **TRACK your files by adding them**
+    ```
+    git add index.html index.css index.js
+    ```
 
 ### Committing Staged Changes
 
 9. **Commit your staged changes**
-10. **make an initial commit message**
+    ```
+    git commit
+    ```
+10. **Make an initial commit message**
     ``` 
     :i
     ```
@@ -194,8 +217,8 @@
     ```  
     *Press escape key*
     
-        
-    ``` 
+11. **Check status**
+    ```
     git status
     ```
    
