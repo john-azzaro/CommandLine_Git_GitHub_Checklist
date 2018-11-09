@@ -193,7 +193,9 @@
     initial commit
     ```  
     Press escape key
+    
     <br>
+    
     ``` 
     git status
     ```
