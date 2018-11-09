@@ -14,6 +14,11 @@
    * [Deleting Files and Directories](#Deleting-Files-and-Directories)
 
 * [Version Control Step-by-Step](#Version-Control-Step-by-Step)
+   * [Setting Up Your Project](#Basic-Commands)
+   * [Initializing Your Project as a Git Repository](#Initializing-Your-Project-as-a-Git-Repository)
+   * [Committing Staged Changes](#Committing-Staged-Changes)
+   * [Uploading Local Repository to GitHub](#Uploading-Local-Repository-to-GitHub)
+
 
    
 
@@ -160,7 +165,7 @@
 
 # Version Control Step-by-Step
 
-### Setting Up Your Project:
+### Setting Up Your Project
    > In this phase, you are simply creating the folder and the files you wish to apply version control to.
    > The method below creates the folder and files in command line, however you can also create the files from your editor as well.
    
@@ -187,7 +192,7 @@
 
 <br>
 
-### Initializing Your Project as a Git Repository:
+### Initializing Your Project as a Git Repository
    > In this phase you are "initializing" your project.  This means that you are telling Git that you want to use version control for this folder and TRACK the files that you add.  Once you add the file, you have changes that are STAGED to be committed.    
 
 6. **Initialize the project folder as a Git repository**
@@ -205,7 +210,7 @@
 
 <br>
 
-### Committing Staged Changes:
+### Committing Staged Changes
 
 9. **Commit your staged changes**
     ```
@@ -227,7 +232,7 @@
    
 <br>
 
-### Uploading to GitHub:
+### Uploading Local Repository to GitHub
   > Assuming you have an account with GitHub already, you need to first create a new repository.  Once you have created the new repository, you copy the provided link to that repository to use in the next step.
   
 12. **Add a new remote repository (named origin) that lives at the provided address**
