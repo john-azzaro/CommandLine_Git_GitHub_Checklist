@@ -13,7 +13,7 @@
    * [Copying Files and Folders](#Copying-Files-and-Folders)
    * [Deleting Files and Directories](#Deleting-Files-and-Directories)
 
-* [Version Control](#Version-Control)
+* [Version Control Step-by-Step](#Version-Control-Step-by-Step)
 
    
 
@@ -158,12 +158,10 @@
 
 <br>
 
-# Version Control
-
-## Version Control Step-by-Step
+# Version Control Step-by-Step
 
 ### Setting Up Your Project:
-   > Setting up your project is as simple as creating the folder and the files you wish to apply version control to.
+   > In this phase, you are simply creating the folder and the files you wish to apply version control to.
    > The method below creates the folder and files in command line, however you can also create the files from your editor as well.
    
 1. **Check to make sure you are in the right directory**
@@ -178,12 +176,12 @@
 <br>
 
 ### Initializing Your Project as a Git Repository:
-   > When you "initialize" your project, you are telling Git that you want to use version control for this folder.
-   > Once initialized, Git will be able to tell us which files it is currently tracking.
-   > So essentially, you will be adding files 
+   > In this phase you are "initializing" your project.  This means that you are telling Git that you want to use version control for this folder and track the files that you add.       
 
 6. **Initialize the project folder as a Git repository**
 7. **Check the status of your repository**
+8. ****
+
     
 
 
