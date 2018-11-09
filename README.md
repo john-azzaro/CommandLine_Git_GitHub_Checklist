@@ -186,10 +186,16 @@
 
 9. **Commit your staged changes**
 10. **make an initial commit message**
-    ``` :i```
-    ``` initial commit```
-    ``` (hit escape key)```
-    ``` git status```
+    ``` 
+    :i
+    ```
+    ``` 
+    initial commit
+    ```  
+    (hit escape key)
+    ``` 
+    
+    git status```
    
 
     
