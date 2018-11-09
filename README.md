@@ -163,9 +163,9 @@
 ## Version Control Step-by-Step
 
 * **STEP 1: Check to make sure you are in the right directory**
-```
-pwd
-```
+    ```
+    pwd
+    ```
     
 
 
