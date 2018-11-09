@@ -194,8 +194,8 @@
     ```  
     (hit escape key)
     ``` 
-    
-    git status```
+    git status
+    ```
    
 
     
