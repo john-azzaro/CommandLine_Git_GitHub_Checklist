@@ -12,7 +12,9 @@
    * [Moving Files and Folders](#Moving-Files-and-Folders)
    * [Copying Files and Folders](#Copying-Files-and-Folders)
    * [Deleting Files and Directories](#Deleting-Files-and-Directories)
-   
+
+* [Version Control](#Version-Control)
+
    
 
 
@@ -154,7 +156,17 @@
     rmdir -r folderToDelete 
     ``` 
 
+<br>
 
+# Version Control
+
+## Version Control Step-by-Step
+
+* **STEP 1: Check to make sure you are in the right directory**
+```
+pwd
+```
+    
 
 
 
