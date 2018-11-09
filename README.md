@@ -162,10 +162,28 @@
 
 ## Version Control Step-by-Step
 
-* **STEP 1: Check to make sure you are in the right directory**
+### Setting Up Your Project:
+   > Setting up your project is as simple as creating the folder and the files you wish to apply version control to.
+   > The method below creates the folder and files in command line, however you can also create the files from your editor as well.
+   
+1. **Check to make sure you are in the right directory**
     ```
     pwd
     ```
+2. **Create a new directory**
+3. **Move into the new directory**
+4. **Create files for your project**
+5. **Check to make sure the files are there**
+
+<br>
+
+### Initializing Your Project as a Git Repository:
+   > When you "initialize" your project, you are telling Git that you want to use version control for this folder.
+   > Once initialized, Git will be able to tell us which files it is currently tracking.
+   > So essentially, you will be adding files 
+
+6. **Initialize the project folder as a Git repository**
+7. **Check the status of your repository**
     
 
 
