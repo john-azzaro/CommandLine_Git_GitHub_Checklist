@@ -212,6 +212,7 @@
 ## MOVING between branches (or master)
    > So suppose at this point that you have a master(i.e. "master") and a branch (i.e. "newbranch").  
    > In VSCode, when you switch between the two in the command line, that change will reflect in what you se in VSCode.
+    
     ```
     git checkout <location>
     ```
@@ -220,9 +221,10 @@
 ## Merging Branches 
    > Important: If you want to merge your branch into the master, you need to be in master for this step.
    > If you want to merge your master into the branch, you need to be in newbranch for this step
-    ```
-    git merge newbranch
-    ```
+   
+   ```
+   git merge newbranch
+   ```
 
 
 ## Managing Merge Conflicts
