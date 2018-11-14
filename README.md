@@ -244,7 +244,11 @@
     ```
     git push -u origin master
     ```
-    
+ 
+ <br>
+ 
+ ### Creating a Branch 
+   > When you create a branch, you are creating a parallel version of your repository.  Once you start working on your branch, all changes will occur inside that branch and not the master.
 
 
 
