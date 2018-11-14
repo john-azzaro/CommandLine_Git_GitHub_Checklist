@@ -199,6 +199,8 @@
 ## Managing Merge Conflicts
 ...
 
+## Cloning a Repository
+
 
 # Version Control Step-by-Step
 
