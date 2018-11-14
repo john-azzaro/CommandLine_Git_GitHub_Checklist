@@ -201,8 +201,11 @@
     :wq
     ```
 
-    
-    
+4. **Check status of branch**
+    > This message should say the branch X is clean and nothing to commit.    
+    ```
+    git status
+    ```
     
     
     
