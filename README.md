@@ -287,12 +287,12 @@
 
 ### Committing Staged Changes
 
-9.1 **Commit your staged changes SHORT WAY**
+9 **Commit your staged changes SHORT WAY**
     ```
     git commit -m 'initial commit'
     ```
     
-9.2 **Commit you staged changes LONG WAY**
+9 **Commit you staged changes LONG WAY**
     ``` 
     git commit
     :i
