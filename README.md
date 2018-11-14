@@ -174,29 +174,34 @@
   
  ## Working with Branches
    > When you create a branch, you are creating a parallel version of your repository.  Once you start working on your branch, all changes will occur inside that branch and not the master.
-
-* **CREATE a new branch**
+   
+1. **CREATE and CHECKOUT a branch**
     ```
-    git branch BRANCH-NAME-HERE
+    gitcheckout -b LOCATION-OF-BRANCH
     ```
-    
-* **LIST all branches in your repository**
+    **Check the status of your files**
+    > When you do this, it will show the index.html file in red again, saying that the file is modified.
     ```
-    git branch -a
-    ```
-
-* **DELETE a branch**
-    ```
-    git branch -D LOCATION-OF-BRANCH
+    git status
     ```
     
-* **CREATE and CHECKOUT a branch**
+2. **Commit the file to your branch**
+    ```
+    gitcheckout -b LOCATION-OF-BRANCH
+    ```
+    
+    
+    
+    
+    
+* **To MOVE between branches (or master)**
     ```
     gitcheckout -b LOCATION-OF-BRANCH
     ```
     
 ## Merging Branches 
-...
+
+* ****
 
 ## Managing Merge Conflicts
 ...
