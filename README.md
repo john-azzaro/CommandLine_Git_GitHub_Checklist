@@ -209,7 +209,7 @@
     
 <br> 
     
-* **To MOVE between branches (or master)**
+## MOVING between branches (or master)
    > So suppose at this point that you have a master(i.e. "master") and a branch (i.e. "newbranch").  
    > In VSCode, when you switch between the two in the command line, that change will reflect in what you se in VSCode.
     ```
