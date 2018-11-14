@@ -15,8 +15,7 @@
 
 * [Git Version Control](#Git-Version-Control)
    * [Working with Branches](#Working-with-Branches)
-
-
+   * [Merging Branches](#Merging-Branches)
 
 * [Version Control Step-by-Step](#Version-Control-Step-by-Step)
    * [Setting Up Your Project](#Setting-Up-Your-Project)
@@ -188,11 +187,13 @@
     git branch -D LOCATION-OF-BRANCH
     ```
     
-* **To CREATE and CHECKOUT a branch**
+* **CREATE and CHECKOUT a branch**
     ```
     gitcheckout -b LOCATION-OF-BRANCH
     ```
+<br> 
 
+## Merging Branches 
 
 
 
