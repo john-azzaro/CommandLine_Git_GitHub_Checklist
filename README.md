@@ -16,6 +16,7 @@
 * [Git Version Control](#Git-Version-Control)
    * [Working with Branches](#Working-with-Branches)
    * [Merging Branches](#Merging-Branches)
+   * [Managing Merge Conflicts](#Managing-Merge-Conflicts)
 
 * [Version Control Step-by-Step](#Version-Control-Step-by-Step)
    * [Setting Up Your Project](#Setting-Up-Your-Project)
@@ -191,10 +192,12 @@
     ```
     gitcheckout -b LOCATION-OF-BRANCH
     ```
-<br> 
-
+    
 ## Merging Branches 
+...
 
+## Managing Merge Conflicts
+...
 
 
 # Version Control Step-by-Step
