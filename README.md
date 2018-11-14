@@ -160,8 +160,20 @@
     ``` 
     rmdir -r folderToDelete 
     ``` 
-
 <br>
+ 
+ ## Branches
+   > When you create a branch, you are creating a parallel version of your repository.  Once you start working on your branch, all changes will occur inside that branch and not the master.
+
+* **To create a new branch**
+    ```
+    git branch BRANCH-NAME-HERE
+    ```
+
+
+
+
+
 
 # Version Control Step-by-Step
 
@@ -246,9 +258,6 @@
     ```
  
  <br>
- 
- ### Creating a Branch 
-   > When you create a branch, you are creating a parallel version of your repository.  Once you start working on your branch, all changes will occur inside that branch and not the master.
 
 
 
