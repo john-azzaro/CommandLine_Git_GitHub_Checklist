@@ -179,19 +179,19 @@
     ```
     gitcheckout -b LOCATION-OF-BRANCH
     ```
-    **Check the status of your files**
+2. **Check the status of your files**
     > When you do this, it will show the index.html file in red again, saying that the file is modified.
     ```
     git status
     ```
     
-2. **Commit the file to your branch and check to see if the chnages were committed**
+3. **Commit the file to your branch and check to see if the chnages were committed**
     ```
     git add index.html
     git status
     ```
 
-3. **Commit the updated file**
+4. **Commit the updated file**
     ```
     git commit
     :i
@@ -201,17 +201,19 @@
     :wq
     ```
 
-4. **Check status of branch**
+5. **Check status of branch**
     > This message should say the branch X is clean and nothing to commit.    
     ```
     git status
     ```
     
-    
+<br> 
     
 * **To MOVE between branches (or master)**
+   > So suppose at this point that you have a master(i.e. "master") and a branch (i.e. "newbranch").  
+   > In VSCode, when you switch between the two in the command line, that change will reflect in what you se in VSCode.
     ```
-    gitcheckout -b LOCATION-OF-BRANCH
+    git checkout <location>
     ```
     
 ## Merging Branches 
