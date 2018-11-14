@@ -215,10 +215,15 @@
     ```
     git checkout <location>
     ```
-    
+<br>
+  
 ## Merging Branches 
+   > Important: If you want to merge your branch into the master, you need to be in master for this step.
+   > If you want to merge your master into the branch, you need to be in newbranch for this step
+    ```
+    git merge newbranch
+    ```
 
-* ****
 
 ## Managing Merge Conflicts
 ...
@@ -282,11 +287,13 @@
 
 ### Committing Staged Changes
 
-9. **Commit your staged changes**
+9.1. **Commit your staged changes SHORT WAY**
     ```
+    git commit -m 'initial commit'
+    ```
+9.2. **Commit you staged changes LONG WAY**
+    ``` 
     git commit
-    ```
-10. **Make an initial commit message**
     ``` 
     :i
     ```
@@ -295,7 +302,7 @@
     ```  
     *Press escape key*
     
-11. **Check status**
+10. **Check status**
     ```
     git status
     ```
