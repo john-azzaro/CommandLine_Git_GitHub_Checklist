@@ -185,10 +185,22 @@
     git status
     ```
     
-2. **Commit the file to your branch**
+2. **Commit the file to your branch and check to see if the chnages were committed**
     ```
-    gitcheckout -b LOCATION-OF-BRANCH
+    git add index.html
+    git status
     ```
+
+3. **Commit the updated file**
+    ```
+    git commit
+    :i
+    initial branch commit
+    [enter]
+    [hit escape key]
+    :wq
+    ```
+
     
     
     
