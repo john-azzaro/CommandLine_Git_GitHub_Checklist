@@ -13,6 +13,11 @@
    * [Copying Files and Folders](#Copying-Files-and-Folders)
    * [Deleting Files and Directories](#Deleting-Files-and-Directories)
 
+* [Git Version Control](#Git-Version-Control)
+   * [Working with Branches](#Working-with-Branches)
+
+
+
 * [Version Control Step-by-Step](#Version-Control-Step-by-Step)
    * [Setting Up Your Project](#Setting-Up-Your-Project)
    * [Initializing Your Project as a Git Repository](#Initializing-Your-Project-as-a-Git-Repository)
@@ -162,7 +167,10 @@
     ``` 
 <br>
  
- ## Branches
+
+ # Git Version Control
+  
+ ## Working with Branches
    > When you create a branch, you are creating a parallel version of your repository.  Once you start working on your branch, all changes will occur inside that branch and not the master.
 
 * **CREATE a new branch**
