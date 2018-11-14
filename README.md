@@ -17,6 +17,8 @@
    * [Working with Branches](#Working-with-Branches)
    * [Merging Branches](#Merging-Branches)
    * [Managing Merge Conflicts](#Managing-Merge-Conflicts)
+   * [Cloning a Repository](#Cloning-a-Repository)
+   * [Pulling Upstream Changes](#Pulling-Upstream-Changes)
 
 * [Version Control Step-by-Step](#Version-Control-Step-by-Step)
    * [Setting Up Your Project](#Setting-Up-Your-Project)
@@ -200,7 +202,14 @@
 ...
 
 ## Cloning a Repository
+...
 
+## Pulling Upstream Changes
+...
+
+
+
+<br>
 
 # Version Control Step-by-Step
 
