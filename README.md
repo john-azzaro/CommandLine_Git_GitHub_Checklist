@@ -165,19 +165,24 @@
  ## Branches
    > When you create a branch, you are creating a parallel version of your repository.  Once you start working on your branch, all changes will occur inside that branch and not the master.
 
-* **To CREATE a new branch**
+* **CREATE a new branch**
     ```
     git branch BRANCH-NAME-HERE
     ```
     
-* **To LIST all branches in repository**
+* **LIST all branches in your repository**
     ```
     git branch -a
     ```
 
-* **To DELETE a branch**
+* **DELETE a branch**
     ```
     git branch -D LOCATION-OF-BRANCH
+    ```
+    
+* **To CREATE and CHECKOUT a branch**
+    ```
+    gitcheckout -b LOCATION-OF-BRANCH
     ```
 
 
