@@ -177,35 +177,31 @@
    
 1. **CREATE and CHECKOUT a branch**
     ```
-    gitcheckout -b LOCATION-OF-BRANCH
-    ```
-2. **Check the status of your files**
-    > When you do this, it will show the index.html file in red again, saying that the file is modified.
-    ```
+    git checkout -b LOCATION-OF-BRANCH
     git status
     ```
-    
-3. **Commit the file to your branch and check to see if the chnages were committed**
+2. **modify you branch now that you are in it**
+
+3. **Now that modifications are made, add the modified file in branch**
+    ```
+    git add index.html
+    git status
+    ```
+     
+4. **Commit the file to your branch and check to see if the chnages were committed**
     ```
     git add index.html
     git status
     ```
 
-4. **Commit the updated file**
+5. **Commit the updated file**
     ```
-    git commit
-    :i
-    initial branch commit
-    [enter]
-    [hit escape key]
-    :wq
-    ```
-
-5. **Check status of branch**
-    > This message should say the branch X is clean and nothing to commit.    
-    ```
+    git commit -m 'modified branch content'
     git status
     ```
+    
+* Note: by this time, in the bottom left hadn corner of VSCode you shoul dbe able to switch between bracnh and master.
+
     
 <br> 
     
@@ -220,18 +216,20 @@
   
 ## Merging Branches 
    > Important: If you want to merge your branch into the master, you need to be in master for this step.
-   > If you want to merge your master into the branch, you need to be in newbranch for this step
+   > If you want to merge your master into the branch, you need to be in newbranch for this step.
+   > If you want to merge your branch into the master, you need to be in master.
    
    ```
    git merge newbranch
    ```
-
-
-## Managing Merge Conflicts
-...
+* *Now, you will see the conflicts in the code and you will need to manually modify*
 
 ## Cloning a Repository
-...
+   ```
+   git clone https://xyz
+   ```
+
+
 
 ## Pulling Upstream Changes
 ...
