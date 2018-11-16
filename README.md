@@ -180,7 +180,7 @@
     git checkout -b LOCATION-OF-BRANCH
     git status
     ```
-2. **modify you branch now that you are in it**
+2. **modify you branch now that you are in**
 
 3. **Now that modifications are made, add the modified file in branch**
     ```
