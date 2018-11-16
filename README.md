@@ -181,14 +181,14 @@
     git status
     ```
 2. **modify you branch now that you are in**
-
+     
 3. **Now that modifications are made, add the modified file in branch**
     ```
     git add index.html
     git status
     ```
      
-4. **Commit the file to your branch and check to see if the chnages were committed**
+4. **Commit the file to your branch and check to see if the changes were committed**
     ```
     git add index.html
     git status
