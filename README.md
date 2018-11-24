@@ -282,6 +282,10 @@
     ```
     git add index.html index.css index.js
     ```
+    or
+    ```
+    git add .
+    ```
 
 <br>
 
