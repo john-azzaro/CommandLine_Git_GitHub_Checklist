@@ -282,7 +282,7 @@
     ```
     git add index.html index.css index.js
     ```
-    or
+    or use ``` . ``` to track all files in folder.
     ```
     git add .
     ```
