@@ -298,9 +298,9 @@
     
 9. **Commit you staged changes LONG WAY**
     ``` 
-    [1] git commit
-    [2] :i
-    [3] initial commit
+    git commit
+    :i
+    initial commit
     ```  
     
     *Press escape key*
