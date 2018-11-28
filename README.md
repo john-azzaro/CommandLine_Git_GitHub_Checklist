@@ -95,7 +95,7 @@
 
 ## Navigating Directories 
 
-* **To navigate FORWARD to a directory:**
+* **To navigate FORWARD into a directory:**
     > *note: typing "cd" will "change directory" to the folder "test".*
      ``` 
      cd test 
