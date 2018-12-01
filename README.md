@@ -222,7 +222,7 @@
    ```
    git merge newbranch
    ```
-* *Now, you will see the conflicts in the code and you will need to manually modify*
+* *In the editor, you will see the conflicts in the code and you will need to manually modify*
 
 ## Cloning a Repository
    ```
