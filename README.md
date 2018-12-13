@@ -1,8 +1,8 @@
-# Command Line, Git, and GitHub Checklist
+# Git Bash, Git, and GitHub Checklist
 
 **Table of Contents**
 
-* [Command Line Checklist](#Command-Line-Checklist)
+* [Git Bash Checklist](#Command-Line-Checklist)
    * [Basic Commands](#Basic-Commands)
    * [Display Git Help](#Display-Git-Help)
    * [Establishing Location](#Establishing-Location)
