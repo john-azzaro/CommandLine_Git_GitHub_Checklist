@@ -226,7 +226,18 @@
 
 ## Cloning a Repository
    ```
-   git clone https://xyz
+   git clone <link-of-repository-to-clone-here>
+   ```
+   
+## Cloning a Repository and Posting to GitHub
+   ```
+   git clone <link-of-repository-to-clone-link-here>
+   ```
+   ```
+   git remote set-url origin <your-new-repository-to-link-here>
+   ```
+   ```
+   git push
    ```
 
 
