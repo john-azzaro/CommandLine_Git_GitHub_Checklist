@@ -223,12 +223,13 @@
    git merge newbranch
    ```
 * *In the editor, you will see the conflicts in the code and you will need to manually modify*
+<br>
 
 ## Cloning a Repository
    ```
    git clone <link-of-repository-to-clone-here>
    ```
-   
+<br>
 ## Cloning a Repository and Posting to GitHub
    ```
    git clone <link-of-repository-to-clone-link-here>
@@ -239,9 +240,7 @@
    ```
    git push
    ```
-
-
-
+<br>
 ## Pulling Upstream Changes
 ...
 
