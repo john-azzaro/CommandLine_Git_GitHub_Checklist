@@ -181,6 +181,7 @@
     git status
     ```
 2. **modify you branch now that you are in**
+    > In other words, continue working on this seperate line.
      
 3. **Now that modifications are made, add the modified file in branch**
     ```
