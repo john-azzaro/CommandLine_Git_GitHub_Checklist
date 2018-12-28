@@ -181,7 +181,8 @@
     git status
     ```
 2. **modify you branch now that you are in**
-    > In other words, continue working on this seperate line.
+    > In VSCode, see bottom left corner of editor.  You should see the new name you are working on.
+    > If not, click the name and you'll see file locations to change.
      
 3. **Now that modifications are made, add the modified file in branch**
     ```
