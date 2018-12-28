@@ -177,7 +177,7 @@
    
 1. **CREATE and CHECKOUT a branch**
     ```
-    git checkout -b LOCATION-OF-BRANCH
+    git checkout -b <INSERT-NEW-NAME-OF-BRANCH>
     git status
     ```
 2. **modify you branch now that you are in**
