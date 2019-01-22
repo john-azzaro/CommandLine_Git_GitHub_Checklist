@@ -330,6 +330,7 @@
   > Assuming you have an account with GitHub already, you need to first create a new repository.  Once you have created the new repository, you copy the provided link to that repository to use in the next step.
   
 12. **Add a new remote repository (named origin) that lives at the provided address**
+      > if fatal error, try to remove first... git origin remove <gitaddress> 
     ```
     git remote add origin https://github.io/<name>/<foldername>.git
     ```
