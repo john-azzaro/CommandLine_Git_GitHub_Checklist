@@ -246,7 +246,10 @@
 <br>
 
 ## Pulling Upstream Changes
-...
+   > To pull, all you need to do is be in the correct file and issue the command
+   ```
+   git pull
+   ```
 
 
 
