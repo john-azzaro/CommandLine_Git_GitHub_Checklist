@@ -2,7 +2,7 @@
 
 **Table of Contents**
 
-* [Git Bash Checklist](#Command-Line-Checklist)
+* [Git Bash Checklist](#Git-Bash-Checklist)
    * [Basic Commands](#Basic-Commands)
    * [Display Git Help](#Display-Git-Help)
    * [Establishing Location](#Establishing-Location)
@@ -30,7 +30,7 @@
    
 
 
-# Command Line Checklist
+# Git Bash Checklist
 
 ## Basic Commands
 * ```   cd       ``` **Change directory** *(used to move from one directory to another).*
