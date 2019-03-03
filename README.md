@@ -216,7 +216,7 @@
    ```
 <br>
   
-## Merging Branches 
+## Merging Branches (& managing conflicts)
    > Important: If you want to merge your branch into the master, you need to be in master for this step.
    > If you want to merge your master into the branch, you need to be in newbranch for this step.
    > If you want to merge your branch into the master, you need to be in master.
