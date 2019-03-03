@@ -15,7 +15,7 @@
 
 * [Git Version Control](#Git-Version-Control)
    * [Working with Branches](#Working-with-Branches)
-   * [Moving between branches (and master)](#Moving-between-branches-(or-master))
+   * [Moving between Branches (or Master)](#Moving-between-branches-(or-master))
    * [Merging Branches (and Manage Conflicts)](#MMerging-Branches-(and-Manage-Conflicts))
    * [Cloning a Repository (and pushing to GitHub)](#Cloning-a-Repository)
    * [Pulling Upstream Changes](#Pulling-Upstream-Changes)
