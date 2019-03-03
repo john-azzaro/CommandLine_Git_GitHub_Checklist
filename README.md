@@ -206,7 +206,18 @@
 
     
 <br> 
-    
+
+## Merging Branches 
+   > Important: If you want to merge your branch into the master, you need to be in master for this step.
+   > If you want to merge your master into the branch, you need to be in newbranch for this step.
+   > If you want to merge your branch into the master, you need to be in master.
+   
+   ```
+   git merge newbranch
+   ```
+* *In the editor, you will see the conflicts in the code and you will need to manually modify*
+<br>   
+
 ## MOVING between branches (or master)
    > So suppose at this point that you have a master(i.e. "master") and a branch (i.e. "newbranch").  
    > In VSCode, when you switch between the two in the command line, that change will reflect in what you se in VSCode.
@@ -216,16 +227,7 @@
    ```
 <br>
   
-## Merging Branches (& managing conflicts)
-   > Important: If you want to merge your branch into the master, you need to be in master for this step.
-   > If you want to merge your master into the branch, you need to be in newbranch for this step.
-   > If you want to merge your branch into the master, you need to be in master.
-   
-   ```
-   git merge newbranch
-   ```
-* *In the editor, you will see the conflicts in the code and you will need to manually modify*
-<br>
+
 
 ## Cloning a Repository
    ```
