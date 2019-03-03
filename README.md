@@ -16,7 +16,7 @@
 * [Git Version Control](#Git-Version-Control)
    * [Working with Branches](#Working-with-Branches)
    * [Moving Between Branches](#Moving-Between-Branches)
-   * [Merging Branches (and Manage Conflicts)](#Merging-Branches-(and-Manage-Conflicts))
+   * [Merging Branches and Managing Conflicts](#Merging-Branches-and-Managing-Conflicts)
    * [Cloning a Repository (and pushing to GitHub)](#Cloning-a-Repository)
    * [Pulling Upstream Changes](#Pulling-Upstream-Changes)
 
@@ -223,7 +223,7 @@
    
 <br>
 
-## Merging Branches (and Manage Conflicts)
+## Merging Branches and Managing Conflicts
    > Important: If you want to merge your branch into the master, you need to be in master for this step.
    
    > If you want to merge your master into the branch, you need to be in newbranch for this step.
