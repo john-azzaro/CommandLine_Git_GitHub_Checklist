@@ -18,7 +18,7 @@
    * [Moving between branches (and master)](#Moving-between-branches-(or-master))
    * [Merging Branches](#Merging-Branches)
    * [Managing Merge Conflicts](#Managing-Merge-Conflicts)
-   * [Cloning a Repository (and pushing to GitHub](#Cloning-a-Repository)
+   * [Cloning a Repository (and pushing to GitHub)](#Cloning-a-Repository)
    * [Pulling Upstream Changes](#Pulling-Upstream-Changes)
 
 * [Version Control Step-by-Step](#Version-Control-Step-by-Step)
@@ -151,7 +151,7 @@
 * **To copy files and folders**
     > *note: follwing cp (copy), the first folder is what is copied, the second folder is where the first folder is copied to.*
     ```
-    cp folderToCopy folderToCopyFirstFolderTo
+    cp <folder-To-Copy> <folder-To-Copy-First-Folder-To>
     ```
 
 
@@ -162,13 +162,13 @@
 * **To remove a file**
     > *note: "rm" stands for remove, "-i" gives you a warning prompt before you delete.*
     ```
-    rm -i docToDelete.txt 
+    rm -i <DOC-TO-DELETE> 
     ``` 
     
 * **To remove a directory**
     > *note: "-r" stands for recursive and will remove sub folders.*
     ``` 
-    rmdir -r folderToDelete 
+    rmdir -r <FOLDER-TO-DELETE> 
     ``` 
 <br>
  
@@ -226,7 +226,9 @@
 
 ## Managing Conflicts and Merging Branches 
    > Important: If you want to merge your branch into the master, you need to be in master for this step.
+   
    > If you want to merge your master into the branch, you need to be in newbranch for this step.
+   
    > If you want to merge your branch into the master, you need to be in master.
    
    ```
