@@ -16,8 +16,7 @@
 * [Git Version Control](#Git-Version-Control)
    * [Working with Branches](#Working-with-Branches)
    * [Moving between branches (and master)](#Moving-between-branches-(or-master))
-   * [Merging Branches](#Merging-Branches)
-   * [Managing Merge Conflicts](#Managing-Merge-Conflicts)
+   * [Merging Branches (and Manage Conflicts)](#MMerging-Branches-(and-Manage-Conflicts))
    * [Cloning a Repository (and pushing to GitHub)](#Cloning-a-Repository)
    * [Pulling Upstream Changes](#Pulling-Upstream-Changes)
 
@@ -224,7 +223,7 @@
    
 <br>
 
-## Managing Conflicts and Merging Branches 
+## Merging Branches (and Manage Conflicts)
    > Important: If you want to merge your branch into the master, you need to be in master for this step.
    
    > If you want to merge your master into the branch, you need to be in newbranch for this step.
@@ -263,7 +262,7 @@
 <br>
 
 ## Pulling Upstream Changes
-   > To pull, all you need to do is be in the correct file and issue the command
+   > To pull from master or branch, be in the file location and issue the command:
    ```
    git pull
    ```
