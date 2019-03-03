@@ -15,9 +15,10 @@
 
 * [Git Version Control](#Git-Version-Control)
    * [Working with Branches](#Working-with-Branches)
+   * [Moving between branches (and master)](#Moving-between-branches-(or-master))
    * [Merging Branches](#Merging-Branches)
    * [Managing Merge Conflicts](#Managing-Merge-Conflicts)
-   * [Cloning a Repository](#Cloning-a-Repository)
+   * [Cloning a Repository (and pushing to GitHub](#Cloning-a-Repository)
    * [Pulling Upstream Changes](#Pulling-Upstream-Changes)
 
 * [Version Control Step-by-Step](#Version-Control-Step-by-Step)
@@ -50,6 +51,8 @@
 * ```   mv       ``` **Move a file** *(used to move a file or directory).*
 
 * ```   cp       ``` **Copy a file** *(used to copy a file or directory).*
+
+* ```   clear       ``` **Clear the window** *(used to clear all commands and start with a fresh window).*
 
 <br>
 
@@ -178,28 +181,29 @@
 1. **CREATE and CHECKOUT a branch**
     ```
     git checkout -b <INSERT-NEW-NAME-OF-BRANCH>
-    git status
     ```
+
 2. **modify you branch now that you are in**
     > In VSCode, see bottom left corner of editor.  You should see the new name you are working on.
     > If not, click the name and you'll see file locations to change.
+    > If you want to do so from Gitbash:
+    ```
+    git checkout <INSERT-NEW-NAME-OF-BRANCH>
+    ```
      
 3. **Now that modifications are made, add the modified file in branch**
     ```
     git add index.html
-    git status
     ```
      
 4. **Commit the file to your branch and check to see if the changes were committed**
     ```
     git add index.html
-    git status
     ```
 
 5. **Commit the updated file**
     ```
     git commit -m 'modified branch content'
-    git status
     ```
     
 * Note: by this time, in the bottom left hadn corner of VSCode you shoul dbe able to switch between bracnh and master.
@@ -207,7 +211,20 @@
     
 <br> 
 
-## Merging Branches 
+## Moving between branches (or master)
+   > So suppose at this point that you have a master(i.e. "master") and a branch (i.e. "newbranch").  
+   > In VSCode, when you switch between the two in the command line, that change will reflect in what you se in VSCode.  
+   ```
+   git checkout <location>
+   ```
+   > Also useful is when you want to list out your branches, to do this:
+   ```
+   git branch
+   ```
+   
+<br>
+
+## Managing Conflicts and Merging Branches 
    > Important: If you want to merge your branch into the master, you need to be in master for this step.
    > If you want to merge your master into the branch, you need to be in newbranch for this step.
    > If you want to merge your branch into the master, you need to be in master.
@@ -218,14 +235,7 @@
 * *In the editor, you will see the conflicts in the code and you will need to manually modify*
 <br>   
 
-## MOVING between branches (or master)
-   > So suppose at this point that you have a master(i.e. "master") and a branch (i.e. "newbranch").  
-   > In VSCode, when you switch between the two in the command line, that change will reflect in what you se in VSCode.
-   
-   ```
-   git checkout <location>
-   ```
-<br>
+
   
 
 
@@ -233,7 +243,7 @@
    ```
    git clone <link-of-repository-to-clone-here>
    ```
-**Posting a cloned repository to GitHub
+### Posting a cloned repository to GitHub
    ```
    git clone <link-of-repository-to-clone-link-here>
    ```
