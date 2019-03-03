@@ -15,7 +15,7 @@
 
 * [Git Version Control](#Git-Version-Control)
    * [Working with Branches](#Working-with-Branches)
-   * [Moving Between Branches (or Master)](#Moving-Between-Branches-(or-Master))
+   * [Moving Between Branches](#Moving-Between-Branches)
    * [Merging Branches (and Manage Conflicts)](#Merging-Branches-(and-Manage-Conflicts))
    * [Cloning a Repository (and pushing to GitHub)](#Cloning-a-Repository)
    * [Pulling Upstream Changes](#Pulling-Upstream-Changes)
@@ -210,7 +210,7 @@
     
 <br> 
 
-## Moving Between Branches (or Master)
+## Moving Between Branches
    > So suppose at this point that you have a master(i.e. "master") and a branch (i.e. "newbranch").  
    > In VSCode, when you switch between the two in the command line, that change will reflect in what you se in VSCode.  
    ```
