@@ -233,9 +233,7 @@
    ```
    git clone <link-of-repository-to-clone-here>
    ```
-<br>
-
-## Cloning a Repository and Posting to GitHub
+**Posting a cloned repository to GitHub
    ```
    git clone <link-of-repository-to-clone-link-here>
    ```
@@ -245,6 +243,11 @@
    ```
    git push
    ```
+
+
+<br>
+
+
 <br>
 
 ## Pulling Upstream Changes
