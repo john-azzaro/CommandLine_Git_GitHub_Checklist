@@ -173,7 +173,6 @@
 <br>
  
 ## Delete File from Local AND GitHub
-   > Removed file from local storage AND GitHub
     ```
     git rm '<DOC-TO-DELETE>' 
     ```
