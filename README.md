@@ -13,6 +13,7 @@
    * [Copying Files and Folders](#Copying-Files-and-Folders)
    * [Deleting Files and Directories](#Deleting-Files-and-Directories)
    * [Deleting File from Local AND GitHub](#Delete-File-from-Local-AND-GitHub)
+   * [Deleting File from GitHub ONLY](#Delete-File-from-GitHub-ONLY)
 
 * [Git Version Control](#Git-Version-Control)
    * [Working with Branches](#Working-with-Branches)
@@ -175,19 +176,21 @@
 ## Delete File from Local AND GitHub
     ```
     git rm '<DOC-TO-DELETE>' 
-    ```
-    ```
     git add .
-    ``` 
-    ```
     git commit -m 'Removed: XYZ'
-    ```
-    ```
     git push origin master
-    ``` 
+    ```
+<br>
+
+## Delete File from GitHub ONLY 
+    ```
+    git rm --cached '<DOC-TO-DELETE>' 
+    git add .
+    git commit -m 'Removed: XYZ'
+    git push origin master
+    ```    
  
- 
- 
+ <br>
 
  # Git Version Control
   
