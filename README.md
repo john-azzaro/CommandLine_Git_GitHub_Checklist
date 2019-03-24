@@ -12,6 +12,7 @@
    * [Moving Files and Folders](#Moving-Files-and-Folders)
    * [Copying Files and Folders](#Copying-Files-and-Folders)
    * [Deleting Files and Directories](#Deleting-Files-and-Directories)
+   * [Deleting File from Local AND GitHub](#Delete-File-from-Local-AND-GitHub)
 
 * [Git Version Control](#Git-Version-Control)
    * [Working with Branches](#Working-with-Branches)
@@ -161,15 +162,32 @@
 * **To remove a file**
     > *note: "rm" stands for remove, "-i" gives you a warning prompt before you delete.*
     ```
-    rm -i <DOC-TO-DELETE> 
+    git rm -i <DOC-TO-DELETE> 
     ``` 
     
 * **To remove a directory**
     > *note: "-r" stands for recursive and will remove sub folders.*
     ``` 
-    rmdir -r <FOLDER-TO-DELETE> 
+    git rmdir -r <FOLDER-TO-DELETE> 
     ``` 
 <br>
+ 
+## Delete File from Local AND GitHub
+    > Removed file from local storage AND GitHub
+    ```
+    git rm '<DOC-TO-DELETE>' 
+    ```
+    ```
+    git add .
+    ``` 
+    ```
+    git commit -m 'Removed: XYZ'
+    ```
+    ```
+    git push origin master
+    ``` 
+ 
+ 
  
 
  # Git Version Control
