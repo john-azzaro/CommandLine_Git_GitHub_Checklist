@@ -343,7 +343,8 @@
 <br>
 
 ### Committing Staged Changes
-
+   > Note: Remember to track your files first before you commit using "git add ."
+   
 9. **Commit your staged changes SHORT WAY**
     ```
     git commit -m 'initial commit'
