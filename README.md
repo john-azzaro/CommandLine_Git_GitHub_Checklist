@@ -15,6 +15,12 @@
    * [Deleting File from Local AND GitHub](#Delete-File-from-Local-AND-GitHub)
    * [Deleting File from GitHub ONLY](#Delete-File-from-GitHub-ONLY)
 
+* [Version Control Step-by-Step](#Version-Control-Step-by-Step)
+   * [Setting Up Your Project](#Setting-Up-Your-Project)
+   * [Initializing Your Project as a Git Repository](#Initializing-Your-Project-as-a-Git-Repository)
+   * [Committing Staged Changes](#Committing-Staged-Changes)
+   * [Uploading Local Repository to GitHub](#Uploading-Local-Repository-to-GitHub)
+
 * [Git Version Control](#Git-Version-Control)
    * [Working with Branches](#Working-with-Branches)
    * [Moving Between Branches](#Moving-Between-Branches)
@@ -22,11 +28,6 @@
    * [Cloning a Repository (and pushing to GitHub)](#Cloning-a-Repository)
    * [Pulling Upstream Changes](#Pulling-Upstream-Changes)
 
-* [Version Control Step-by-Step](#Version-Control-Step-by-Step)
-   * [Setting Up Your Project](#Setting-Up-Your-Project)
-   * [Initializing Your Project as a Git Repository](#Initializing-Your-Project-as-a-Git-Repository)
-   * [Committing Staged Changes](#Committing-Staged-Changes)
-   * [Uploading Local Repository to GitHub](#Uploading-Local-Repository-to-GitHub)
 
 
    
@@ -192,6 +193,101 @@
  
  <br>
 
+# Version Control Step-by-Step
+
+### Setting Up Your Project
+   > In this phase, you are simply creating the folder and the files you wish to apply version control to.
+   > The method below creates the folder and files in command line, however you can also create the files from your editor as well.
+   
+1. **Check to make sure you are in the right directory**
+    ```
+    pwd
+    ```
+2. **Create a new directory**
+    ```
+    mkdir project
+    ```
+3. **Move into the new directory**
+    ```
+    cd project
+    ```
+4. **Create files for your project**
+    ```
+    touch index.html index.css index.js
+    ```
+5. **Check to make sure the files are there**
+    ```
+    ls
+    ```
+
+<br>
+
+### Initializing Your Project as a Git Repository
+   > In this phase you are "initializing" your project.  This means that you are telling Git that you want to use version control for this folder and TRACK the files that you add.  Once you add the file, you have changes that are STAGED to be committed.    
+
+6. **Initialize the project folder as a Git repository**
+    ```
+    git init
+    ```
+7. **Check the status of your repository**
+    ```
+    git status
+    ```
+8. **TRACK your files by adding them**
+    ```
+    git add index.html index.css index.js
+    ```
+    or use ``` . ``` to track all files in folder.
+    ```
+    git add .
+    ```
+
+<br>
+
+### Committing Staged Changes
+   > Note: Remember to track your files first before you commit using "git add ."
+   
+9. **Commit your staged changes SHORT WAY**
+    ```
+    git commit -m 'initial commit'
+    ```
+    
+9. **Commit you staged changes LONG WAY**
+    ``` 
+    git commit
+    :i
+    initial commit
+    ```  
+    
+    *Press escape key*
+    
+10. **Check status**
+    ```
+    git status
+    ```
+   
+<br>
+
+### Uploading Local Repository to GitHub
+  > Assuming you have an account with GitHub already, you need to first create a new repository.  Once you have created the new repository, you copy the provided link to that repository to use in the next step.
+  
+12. **Add a new remote repository (named origin) that lives at the provided address**
+      > if fatal error, try to remove first... git origin remove <gitaddress> 
+    ```
+    git remote add origin https://github.io/<name>/<foldername>.git
+    ```
+13. **Push the local commit history to the remote repo (origin) to a local branch called "master"**
+      > *note: the -u flag setps things up so that you only need to use ```git push``` instead of the full ```git push origin master```*
+    ```
+    git push -u origin master
+    ```
+ 
+ <br>
+
+
+
+
+
  # Git Version Control
   
  ## Working with Branches
@@ -290,97 +386,5 @@
 
 
 <br>
-
-# Version Control Step-by-Step
-
-### Setting Up Your Project
-   > In this phase, you are simply creating the folder and the files you wish to apply version control to.
-   > The method below creates the folder and files in command line, however you can also create the files from your editor as well.
-   
-1. **Check to make sure you are in the right directory**
-    ```
-    pwd
-    ```
-2. **Create a new directory**
-    ```
-    mkdir project
-    ```
-3. **Move into the new directory**
-    ```
-    cd project
-    ```
-4. **Create files for your project**
-    ```
-    touch index.html index.css index.js
-    ```
-5. **Check to make sure the files are there**
-    ```
-    ls
-    ```
-
-<br>
-
-### Initializing Your Project as a Git Repository
-   > In this phase you are "initializing" your project.  This means that you are telling Git that you want to use version control for this folder and TRACK the files that you add.  Once you add the file, you have changes that are STAGED to be committed.    
-
-6. **Initialize the project folder as a Git repository**
-    ```
-    git init
-    ```
-7. **Check the status of your repository**
-    ```
-    git status
-    ```
-8. **TRACK your files by adding them**
-    ```
-    git add index.html index.css index.js
-    ```
-    or use ``` . ``` to track all files in folder.
-    ```
-    git add .
-    ```
-
-<br>
-
-### Committing Staged Changes
-   > Note: Remember to track your files first before you commit using "git add ."
-   
-9. **Commit your staged changes SHORT WAY**
-    ```
-    git commit -m 'initial commit'
-    ```
-    
-9. **Commit you staged changes LONG WAY**
-    ``` 
-    git commit
-    :i
-    initial commit
-    ```  
-    
-    *Press escape key*
-    
-10. **Check status**
-    ```
-    git status
-    ```
-   
-<br>
-
-### Uploading Local Repository to GitHub
-  > Assuming you have an account with GitHub already, you need to first create a new repository.  Once you have created the new repository, you copy the provided link to that repository to use in the next step.
-  
-12. **Add a new remote repository (named origin) that lives at the provided address**
-      > if fatal error, try to remove first... git origin remove <gitaddress> 
-    ```
-    git remote add origin https://github.io/<name>/<foldername>.git
-    ```
-13. **Push the local commit history to the remote repo (origin) to a local branch called "master"**
-      > *note: the -u flag setps things up so that you only need to use ```git push``` instead of the full ```git push origin master```*
-    ```
-    git push -u origin master
-    ```
- 
- <br>
-
 
 
