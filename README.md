@@ -56,6 +56,8 @@
 
 * ```   clear       ``` **Clear the window** *(used to clear all commands and start with a fresh window).*
 
+* ```   code .       ``` **Open file in text editor** *(used to quickly open file location in text editor).*
+
 <br>
 
 ## Display Git Help
