@@ -9,7 +9,7 @@
    * [Creating New Directories and Files](#Creating-New-Directories-and-Files)
    * [Navigating Directories](#Navigating-Directories)
    * [Listing Directory Contents](#Listing-Directory-Contents)
-   * [Moving Files and Folders](#Moving-Files-and-Folders)
+   * [Renaming Files and Folders](#Renaming-Files-and-Folders)
    * [Copying Files and Folders](#Copying-Files-and-Folders)
    * [Deleting Files and Directories](#Deleting-Files-and-Directories)
    * [Deleting File from Local AND GitHub](#Delete-File-from-Local-AND-GitHub)
@@ -141,9 +141,9 @@
 
 <br>
 
-## Moving Files and Folders
+## Renaming Files and Folders
 
-* **To move a file to another name (i.e. rename a file)**
+* **To rename a file to another name**
     > *note: this renames first.txt to second.txt*
      ``` 
      mv first.txt second.txt 
@@ -164,15 +164,21 @@
 ## Deleting Files and Directories 
   
 * **To remove a file**
-    > *note: "rm" stands for remove, "-i" gives you a warning prompt before you delete.*
+    > *note: "-i" gives you a warning prompt before you delete.  ALWAYS USE "rm -y" FOR ADDTIONAL SAFETY!*
     ```
-    git rm -i <DOC-TO-DELETE> 
+    rm -i <DOC-TO-DELETE> 
     ``` 
     
-* **To remove a directory**
+* **To remove an EMPTY directory**
     > *note: "-r" stands for recursive and will remove sub folders.*
     ``` 
-    git rmdir -r <FOLDER-TO-DELETE> 
+    rmdir -r <FOLDER-TO-DELETE> 
+    ``` 
+    
+* **To remove an POPULATED directory**
+    > *note: "-rf" stands for recursive and will remove sub folders and will remove files and folder without confirmation.*
+    ``` 
+    rm -rf <FOLDER-TO-DELETE-WITH-ALL-CONTENTS> 
     ``` 
 <br>
  
