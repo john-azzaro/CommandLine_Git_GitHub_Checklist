@@ -293,15 +293,16 @@
  <br>
 
 
-
-
-
  # Git Version Control
   
  ## Working with Branches
    > When you create a branch, you are creating a parallel version of your repository.  Once you start working on your branch, all changes will occur inside that branch and not the master.
    
 1. **See all branches that have been created**
+    ```
+    git branch 
+    ```
+    or to see path with branch listing:
     ```
     git branch -a
     ```
@@ -311,56 +312,61 @@
     git checkout <INSERT-NEW-NAME-OF-BRANCH-HERE>
     ```   
    
-3. **CREATE and CHECKOUT a branch**
+3. **To CREATE and CHECKOUT a branch**
     ```
     git checkout -b <INSERT-NEW-NAME-OF-BRANCH-HERE>
     ```
-
-4. **modify you branch now that you are in**
-    > In VSCode, see bottom left corner of editor.  You should see the new name you are working on.
-    > If not, click the name and you'll see file locations to change.
-    > If you want to do so from Gitbash:
-    ```
-    git checkout <INSERT-NEW-NAME-OF-BRANCH>
-    ```
-     
-5. **Now that modifications are made, add the modified file in branch**
+         
+4. **New commits will be within this branch alone**
     ```
     git add index.html
-    ```
-     
-6. **Commit the file to your branch and check to see if the changes were committed**
-    ```
-    git add index.html
-    ```
-
-7. **Commit the updated file**
-    ```
     git commit -m 'modified branch content'
     ```
     
-8. **Push branch to GitHub**
+5. **To PUSH branch to GitHub**
     ```
-    git push origin <INSERT-NEW-NAME-OF-BRANCH>
+    git push origin <INSERT-NAME-OF-BRANCH>
+    ```
+    
+6. **To DELETE branch on local machine**
+    ```
+    git branch -d <NEW-NAME-OF-BRANCH-HERE>
+    ```
+   
+7. **To DELETE branch on GitHub**
+    ```
+    git push origin :<NEW-NAME-OF-BRANCH-HERE>
     ```
   
 VSCode Note: In the bottom left hand corner of VSCode you should be able to switch between branches and master.
 
     
+    
+    
+    
 <br> 
 
-## Moving Between Branches
-   > So suppose at this point that you have a master(i.e. "master") and a branch (i.e. "newbranch").  
-   > In VSCode, when you switch between the two in the command line, that change will reflect in what you se in VSCode.  
-   ```
-   git checkout <location>
-   ```
-   > Also useful is when you want to list out your branches, to do this:
-   ```
-   git branch
-   ```
+## Moving Between Branches 
+   > In VSCode, see bottom left corner of editor to see which branch (or master) you are currently in.
+   > If you are NOT in the desired location, click the location name and you'll see file locations to change to.
+   > Also note that in VSCode, when you switch between the two in the command line, that change will reflect in what you se in VSCode.  
+   > However, if you want to do so from Gitbash:
+   
+1. **Show all existing branches**
+    ```
+    git branch 
+    ```
+ 
+2. **Move into desired branch with "checkout"**
+    ```
+    git checkout <NAME-OF-BRANCH-HERE>
+    ```
    
 <br>
+
+
+
+
 
 ## Merging Branches and Managing Conflicts
    > Important: If you want to merge your branch into the master, you need to be in master for this step.
