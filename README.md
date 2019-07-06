@@ -301,12 +301,22 @@
  ## Working with Branches
    > When you create a branch, you are creating a parallel version of your repository.  Once you start working on your branch, all changes will occur inside that branch and not the master.
    
-1. **CREATE and CHECKOUT a branch**
+1. **See all branches that have been created**
     ```
-    git checkout -b <INSERT-NEW-NAME-OF-BRANCH>
+    git branch -a
+    ```
+    
+2. **To CHECKOUT (i.e. move) to a desired branch**
+    ```
+    git checkout <INSERT-NEW-NAME-OF-BRANCH-HERE>
+    ```   
+   
+3. **CREATE and CHECKOUT a branch**
+    ```
+    git checkout -b <INSERT-NEW-NAME-OF-BRANCH-HERE>
     ```
 
-2. **modify you branch now that you are in**
+4. **modify you branch now that you are in**
     > In VSCode, see bottom left corner of editor.  You should see the new name you are working on.
     > If not, click the name and you'll see file locations to change.
     > If you want to do so from Gitbash:
@@ -314,22 +324,27 @@
     git checkout <INSERT-NEW-NAME-OF-BRANCH>
     ```
      
-3. **Now that modifications are made, add the modified file in branch**
+5. **Now that modifications are made, add the modified file in branch**
     ```
     git add index.html
     ```
      
-4. **Commit the file to your branch and check to see if the changes were committed**
+6. **Commit the file to your branch and check to see if the changes were committed**
     ```
     git add index.html
     ```
 
-5. **Commit the updated file**
+7. **Commit the updated file**
     ```
     git commit -m 'modified branch content'
     ```
     
-* Note: by this time, in the bottom left hadn corner of VSCode you shoul dbe able to switch between bracnh and master.
+8. **Push branch to GitHub**
+    ```
+    git push origin <INSERT-NEW-NAME-OF-BRANCH>
+    ```
+  
+VSCode Note: In the bottom left hand corner of VSCode you should be able to switch between branches and master.
 
     
 <br> 
