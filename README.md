@@ -302,10 +302,6 @@
     ```
     git branch 
     ```
-    or to see path with branch listing:
-    ```
-    git branch -a
-    ```
     
 2. **To CHECKOUT (i.e. move) to a desired branch**
     ```
@@ -355,6 +351,10 @@ VSCode Note: In the bottom left hand corner of VSCode you should be able to swit
 1. **Show all existing branches**
     ```
     git branch 
+    ```
+   or to see path with branch listing:
+    ```
+    git branch -a
     ```
  
 2. **Move into desired branch with "checkout"**
