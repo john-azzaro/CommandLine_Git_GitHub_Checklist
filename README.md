@@ -183,7 +183,7 @@
 <br>
  
 ## Delete File from Local AND GitHub
-    > *note: Remember to use '' to encapsulate document.
+   > *note: Remember to use '' to encapsulate document.
     ```
     git rm '<DOC-TO-DELETE>' 
     git add .
@@ -193,7 +193,7 @@
 <br>
 
 ## Delete File from GitHub ONLY
-    > *note: Remember to use '' to encapsulate document.
+   > *note: Remember to use '' to encapsulate document.
     ```
     git rm --cached '<DOC-TO-DELETE>' 
     git add .
