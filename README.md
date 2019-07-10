@@ -185,23 +185,23 @@
 ## Delete File from Local AND GitHub
    > *note: Remember to use '' to encapsulate document.
     
-    ```
+   
     git rm '<DOC-TO-DELETE>' 
     git add .
     git commit -m 'Removed: XYZ'
     git push origin master
-    ```
+    
 <br>
 
 ## Delete File from GitHub ONLY
    > *note: Remember to use '' to encapsulate document.
     
-    ```
+    
     git rm --cached '<DOC-TO-DELETE>' 
     git add .
     git commit -m 'Removed: XYZ'
     git push origin master
-    ```    
+        
  
  <br>
 
