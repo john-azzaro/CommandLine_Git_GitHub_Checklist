@@ -373,16 +373,15 @@ VSCode Note: In the bottom left hand corner of VSCode you should be able to swit
 
 
 ## Merging Branches and Managing Conflicts
-   > Important: If you want to merge your branch into the master, you need to be in master for this step.
    
-   > If you want to merge your master into the branch, you need to be in newbranch for this step.
+   > If you want to merge your master into the branch, you need to be in newbranch.
    
    > If you want to merge your branch into the master, you need to be in master.
    
    ```
    git merge newbranch
    ```
-* *In the editor, you will see the conflicts in the code and you will need to manually modify*
+* *Note that in the text editor, you will see the conflicts in the code and you will need to manually modify*
 <br>   
 
 
@@ -411,13 +410,16 @@ VSCode Note: In the bottom left hand corner of VSCode you should be able to swit
 <br>
 
 ## Pulling Upstream Changes
-   > To pull from master or branch, be in the file location and issue the command:
+   > To update the local repository with the remote repository (i.e. bring repository is up to date):
    ```
-   git pull
+   git pull origin master
    ```
-
-
-
+  
+   
+   
 <br>
+
+
+
 
 
