@@ -379,7 +379,7 @@ VSCode Note: In the bottom left hand corner of VSCode you should be able to swit
    > If you want to merge your branch into the master, you need to be in master.
    
    ```
-   git merge newbranch
+   git merge <name-of-branch-you-want-to-push-changes-from>
    ```
 * *Note that in the text editor, you will see the conflicts in the code and you will need to manually modify*
 <br>   
