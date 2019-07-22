@@ -411,6 +411,7 @@ VSCode Note: In the bottom left hand corner of VSCode you should be able to swit
 
 ## Pulling Upstream Changes
    > To update the local repository with the remote repository (i.e. bring repository is up to date):
+   > In other words, this is pulling from master your local machine (which may be behind).
    ```
    git pull origin master
    ```
