@@ -382,17 +382,20 @@ VSCode Note: In the bottom left hand corner of VSCode you should be able to swit
    git merge <name-of-branch-you-want-to-push-changes-from>
    ```
 * *Note that in the text editor, you will see the conflicts in the code and you will need to manually modify*
+
+
 <br>   
-
-
-  
 
 
 ## Cloning a Repository
    ```
    git clone <link-of-repository-to-clone-here>
    ```
-### Posting a cloned repository to GitHub
+   
+<br>  
+
+
+## Posting a cloned repository to GitHub
    ```
    git clone <link-of-repository-to-clone-link-here>
    ```
