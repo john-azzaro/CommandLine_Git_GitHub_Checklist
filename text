@@ -373,27 +373,29 @@ VSCode Note: In the bottom left hand corner of VSCode you should be able to swit
 
 
 ## Merging Branches and Managing Conflicts
-   > Important: If you want to merge your branch into the master, you need to be in master for this step.
    
-   > If you want to merge your master into the branch, you need to be in newbranch for this step.
+   > If you want to merge your master into the branch, you need to be in newbranch.
    
    > If you want to merge your branch into the master, you need to be in master.
    
    ```
-   git merge newbranch
+   git merge <name-of-branch-you-want-to-push-changes-from>
    ```
-* *In the editor, you will see the conflicts in the code and you will need to manually modify*
+* *Note that in the text editor, you will see the conflicts in the code and you will need to manually modify*
+
+
 <br>   
-
-
-  
 
 
 ## Cloning a Repository
    ```
    git clone <link-of-repository-to-clone-here>
    ```
-### Posting a cloned repository to GitHub
+   
+<br>  
+
+
+## Posting a cloned repository to GitHub
    ```
    git clone <link-of-repository-to-clone-link-here>
    ```
@@ -411,11 +413,12 @@ VSCode Note: In the bottom left hand corner of VSCode you should be able to swit
 <br>
 
 ## Pulling Upstream Changes
-   > To pull from master or branch, be in the file location and issue the command:
+   > To update the local repository with the remote repository (i.e. bring repository is up to date).
+   > In other words, you are "pulling" from "master" to your local machine (which may be behind).
    ```
-   git pull
+   git pull origin master
    ```
-
-
-
+  
+   
+   
 <br>
