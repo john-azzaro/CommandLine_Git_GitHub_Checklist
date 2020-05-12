@@ -420,8 +420,10 @@ VSCode Note: In the bottom left hand corner of VSCode you should be able to swit
    ```
   
    
-   
 <br>
+
+# Resources
+https://www.w3docs.com/learn-git/introduction4.html  -- Good outline of Git functionality
 
 
 
